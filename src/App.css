@@ -1,38 +1,558 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2e2d2d;
+}
+
+.wrapper {
+ width: 90%;
+ margin: 0 auto;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.void {
+  width: 100px;
+  height: 80px;
+}
+
+hr {
+  margin-bottom: 30px
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.store-name, .slogan, .link, .footer-store-name, hr {
+  color: #E4E4E4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.store-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.slogan {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  margin-right: 10px;
+}
+
+.homePage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.homePage-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.homePage-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #E4E4E4;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.shop-now-btn {
+  background-color: #E4E4E4;
+  padding: 15px;
+  border: none;
+  width: 100%;
+  color: #2e2d2d;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.shop-now-link {
+  width: 90%;
+}
+
+.slider-container {
+  display: flex;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+}
+
+.slider-btn-prev {
+  padding-left: 15px;
+  margin-right: -38px;
+  z-index: 1;
+  border: none;
+}
+
+.slider-btn-next {
+  padding-right: 15px;
+  margin-left: -38px;
+  z-index: 1;
+  border: none;
+}
+
+.slider-btn-next, .slider-btn-prev {
+  background-color: rgba(39,47,51, 0.1);
+}
+
+.slider-btn-next:hover, .slider-btn-prev:hover{
+  background-color: rgba(39,47,51, 0.25);
+}
+
+.arrows {
+   width: 20px;
+   height: 20px;
+   color: #E4E4E4; 
+}
+
+.prev {
+   border-bottom: 3px solid;
+   border-left: 3px solid;
+   transform: rotate(45deg);
+}
+   
+.next {
+   border-bottom: 3px solid;
+   border-left: 3px solid;
+   transform: rotate(-135deg);
+}
+
+.item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-color: #E4E4E4;
+  width: 400px;
+  padding: 15px;
+  margin: 30px;
+}
+
+.item-img {
+  width: 100%;
+  height: auto;
+}
+
+.item-heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.item-name {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  color: #2e2d2d;
+}
+
+.item-price {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  color: #2e2d2d;
+}
+
+.description {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #2e2d2d;
+}
+
+.show-more-btn {
+  border: none;
+  background-color: #E4E4E4;
+  color: rgb(109, 109, 221);
+  text-decoration: underline;
+}
+
+.shop-container {
+  display: flex;
+}
+
+.filterButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.filter-btn {
+  border: none;
+  background-color: #E4E4E4;
+  color: #2e2d2d;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.about-us {
+  width: 50%;
+  color: #E4E4E4;
+  margin: 30px;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-img {
+  width: 50%;
+  height: auto;
+
+}
+
+.location-map {
+  width: 50%;
+  height: 400px;
+}
+
+.opening-hours-container {
+  margin: 20px;
+}
+
+.opening-hours {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 0;
+}
+
+.contacts a {
+  color: #E4E4E4;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.contacts {
+  margin: 10px 0;
+}
+
+@media all and (max-width: 800px) {
+
+   .content {
+     min-height: calc(100vh - 80px);
+   }
+   
+   .link {
+     font-size: 18px;
+   }
+   
+   .container {
+     width: 90%;
+   }
+   
+   .homePage-container {
+     flex-direction: column;
+     align-items: center;
+   }
+   
+   .homePage-content {
+     align-items: center;
+     width: 100%;
+   }
+   
+   .homePage-text {
+    margin: 20px 0;
+   }
+   
+   .slider-container {
+     margin: 0;
+   }
+   
+   .item {
+     width: 200px;
+     padding: 15px;
+     margin: 20px;
+   }
+   
+   .item-name {
+     font-size: 22px;
+   }
+   
+   .item-price {
+     font-size: 22px;
+   }
+   
+   .about-heading {
+     font-size: 25px;
+     margin-bottom: 25px;
+   }
+   
+   .about-text {
+     font-size: 18px;
+   }
+   
+   
+   .location-map {
+     width: 50%;
+     height: 300px;
+   }
+   
+   .opening-hours-container {
+     margin: 15px;
+   }
+   
+   .opening-hours {
+     font-size: 14px;
+   }
+   
+   .contacts a {
+     font-size: 14px;
+   }
+}
+
+@media all and (max-width: 500px) {
+
+  header {
+    padding: 20px 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header-logo {
+    width: 80px;
+    height: 60px;
+  }
+
+  .void {
+    width: 80px;
+    height: 60px;
+  }
+
+  .store-name {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .slogan {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .homePage-text {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .shop-now-btn {
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .item {
+    padding: 10px;
+    margin: 15px;
+  }
+  
+  .item-name {
+    font-size: 18px;
+  }
+  
+  .item-price {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+  
+  .filterButtons {
+    margin-top: 15px;
+  }
+
+  .filter-btn {
+    font-size: 13px;
+  }
+
+  .show-more-btn {
+    font-size: 13px;
+  }
+  
+  .about-container {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .about-us {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .about-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    font-size: 14px;
+  }
+  
+  .location-map {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .opening-hours-container {
+    margin: 10px;
+  }
+  
+  .opening-hours {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 300px) {
+
+  .store-name {
+    font-size: 25px;
+  }
+  
+  .slogan {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 13px;
+  }
+
+  nav {
+    margin-bottom: 15px;
+  }
+
+  .homePage-text {
+    font-size: 13px;
+  }
+  
+  .shop-now-btn {
+    font-size: 13px;
+  }
+
+  hr {
+    margin-bottom: 15px;
+  }
+
+  .footer-store-name {
+    font-size: 18px;
+  }
+
+  .item {
+    width: 150px;
+    margin: 10px 15px;
+    padding: 5px;
+  }
+  
+  .item-name {
+    font-size: 15px;
+  }
+  
+  .item-price {
+    font-size: 15px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+  
+  .filterButtons {
+    margin-top: 10px;
+  }
+
+  .filter-btn {
+    font-size: 10px;
+  }
+
+  .show-more-btn {
+    font-size: 10px;
   }
 }
