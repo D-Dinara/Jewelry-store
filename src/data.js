@@ -31,7 +31,7 @@ export const data = [
       price: 1100,
       image: braceletLorem,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -41,7 +41,7 @@ export const data = [
       price: 1150,
       image: earringsIpsum,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -51,7 +51,7 @@ export const data = [
       price: 999,
       image: earringsDolor,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -61,7 +61,7 @@ export const data = [
       price: 1200,
       image: earringsSit,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -71,7 +71,7 @@ export const data = [
       price: 989,
       image: earringsAmet,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -81,7 +81,7 @@ export const data = [
       price: 1099,
       image: earringsVeniam,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -91,7 +91,7 @@ export const data = [
       price: 1309,
       image: earringsEpicuri,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -101,7 +101,7 @@ export const data = [
       price: 990,
       image: earringsLucilius,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -111,7 +111,7 @@ export const data = [
       price: 660,
       image: braceletMei,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -121,7 +121,7 @@ export const data = [
       price: 950,
       image: braceletQuodsi,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -131,7 +131,7 @@ export const data = [
       price: 399,
       image: braceletSenserit,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -141,7 +141,7 @@ export const data = [
       price: 325,
       image: braceletPosidonium,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -151,7 +151,7 @@ export const data = [
       price: 999,
       image: braceletPosse,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -161,7 +161,7 @@ export const data = [
       price: 950,
       image: braceletVoluptua,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
   
     {
@@ -171,7 +171,7 @@ export const data = [
       price: 880,
       image: ringQuaerendum,
       description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-      fullDescription: false
+      fullDescription: false,
     },
 
     {
@@ -181,7 +181,7 @@ export const data = [
         price: 1500,
         image: ringPlacerat,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       },
 
       {
@@ -191,7 +191,7 @@ export const data = [
         price: 990,
         image: ringModeratius,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       },
 
       {
@@ -201,7 +201,7 @@ export const data = [
         price: 890,
         image: ringSemper,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       },
 
       {
@@ -211,7 +211,7 @@ export const data = [
         price: 950,
         image: ringNostrud,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       },
 
       {
@@ -221,7 +221,7 @@ export const data = [
         price: 284.99,
         image: ringNemore,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       },
 
       {
@@ -231,7 +231,7 @@ export const data = [
         price: 1499,
         image: ringPetentium,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       },
 
       {
@@ -241,6 +241,6 @@ export const data = [
         price: 600,
         image: ringLiberavisse,
         description: "Lorem ipsum dolor sit amet, veniam epicuri lucilius ea eos. Mei ex quodsi senserit posidonium, sit posse voluptua oporteat cu. Ceteros quaerendum an mei, minimum placerat moderatius et sed, et cum semper nostrud necessitatibus. Nemore facete facilisis eum eu, sale honestatis intellegebat ea ius, natum dicat petentium pro eu. Qui id fuisset gloriatur consequuntur, at eam errem ignota ceteros, cu usu posse prompta. Assum possim virtute pro id, dolore lobortis liberavisse sed ea.  ",
-        fullDescription: false
+        fullDescription: false,
       }
   ]
